@@ -1,0 +1,50 @@
+.navContainer {
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        color: white;
+        text-shadow: 2px 0 slateblue,
+        1px 1px slateblue, -1px -1px slateblue, 1px -1px slateblue, -1px 1px slateblue;
+    }
+
+    .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        #global {
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        
+        #numb {
+            padding: 10px 20px;
+            border-radius: 5px;
+            border-width: 1px;
+        }
+
+    }
+
+    button {
+        border-radius: 8px;
+        border: 1px solid transparent;
+        padding: 0.6em 1.2em;
+        font-size: 1em;
+        font-weight: 500;
+        font-family: inherit;
+        background-color: rgba(102, 102, 102, 0.556);
+        color: white;
+        cursor: pointer;
+        transition: border-color 0.25s;
+
+        &:hover {
+            background-color: rgb(0, 0, 0);
+        }
+
+    }
+}
+
+
+

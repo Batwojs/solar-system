@@ -1,0 +1,37 @@
+.inactive {
+    display: none;
+}
+
+.mainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+
+    #planet {
+        width: 300px;  
+    }
+
+    .infoContainer {
+        display: flex;
+        flex-direction: column; /* Öğeleri dikey olarak sıralamak için */
+        align-items: center; /* Yatay düzlemde ortalamak için */
+        justify-content: center; /* Dikey düzlemde ortalamak için */
+        margin-left: 20px;
+        padding: 10px 140px;
+        background-color: #ffffff31;
+
+        .circle { 
+            margin-bottom: 10px;
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            border-radius: 50%;
+            font-size: 12px;
+            color: #fff;
+            text-align: center;
+            background: gray
+        }
+    }
+
+}
